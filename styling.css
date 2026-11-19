@@ -1,0 +1,137 @@
+
+/* Color Palette */
+:root {
+    --deep-navy: #17324D;
+    --teal: #2A9D8F;
+    --soft-blue: #DCEEF2;
+    --coral: #F28C75;
+    --warm-white: #F7F5F0;
+    --charcoal: #30343B;
+}
+
+
+body {
+    margin: 0;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.22;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Cards */
+.card {
+    display: flex;
+}
+
+.card-content {
+    flex: 1;
+    margin: 1em;
+}
+
+.card-content img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* What She Loves card */
+.thumbnail-card {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: var(--soft-blue);
+    border-radius: 12px;
+}
+
+.thumbnail-card h2 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--charcoal);
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.thumbnail img {
+    width: 33.333%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Navigation */
+#navbar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* Buttons */
+#fight-button {
+    display: grid;
+    place-items: center;
+    margin: 40px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
